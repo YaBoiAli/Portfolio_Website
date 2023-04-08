@@ -1,0 +1,88 @@
+@font-face{
+    src: url(fonts/main-font/Fontspring-DEMO-almaroseregular.otf);
+    font-family: almorse;
+}
+@font-face {
+    font-family: almorsebold;
+    src: url(fonts/main-font/Fontspring-DEMO-almarosesemibold.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    min-height: 100%;
+    line-height: 1;
+    font-family: almorse;
+    background-color: rgb(190, 205, 214);
+}
+nav{
+    width: 100%;
+    background-color: #31343d;
+    padding-bottom: 11px;
+    padding-right: 5%;
+}
+
+nav h2{
+    background-color: #92cccd;
+    color: #31343d;
+    padding-left: 3%;
+    font-family: almorse;
+    font-size: 30px;
+    padding-top: 8px;
+    padding-right:5px;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+
+}
+nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-left: 10px;
+    color: white;
+    color: inherit;
+    font-family: almorse;
+}
+nav a{
+    font-family: almorse;
+    text-decoration: none;
+    color: inherit;
+    color:#92cccd;
+    display: inline;
+    border-bottom: 3.3px solid #92cccd;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+.hero{
+    height: 300px;
+    background-image: url("/assets/images/02-hero-bg.jpg");
+    background-size: cover;
+    background-position:  100% 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.span-text{
+    background-color: #92cccd;
+    padding: 15px;
+    font-size: large;
+    font-family: almorsebold;
+    color: #31343d;
+
+}
+.hero-subtitle{
+    padding-bottom: 5%;
+    padding-right: 6%;
+}
