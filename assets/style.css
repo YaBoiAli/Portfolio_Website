@@ -6,6 +6,10 @@
     font-family: almorsebold;
     src: url(fonts/main-font/Fontspring-DEMO-almarosesemibold.otf);
 }
+@font-face {
+    font-family: almorseboldest;
+    src: url(fonts/main-font/Fontspring-DEMO-almarosemedium.otf);
+}
 
 *{
     margin: 0;
@@ -19,7 +23,7 @@ body{
     min-height: 100%;
     line-height: 1;
     font-family: almorse;
-    background-color: rgb(190, 205, 214);
+    background-color: #ededf6;
 }
 nav{
     width: 100%;
@@ -36,6 +40,7 @@ nav h2{
     font-size: 30px;
     padding-top: 8px;
     padding-right:5px;
+    padding-bottom: 5px;
 }
 nav{
     display:flex;
@@ -65,7 +70,7 @@ nav a{
     padding-right: 8px;
   }
 .hero{
-    height: 300px;
+    height: 210px;
     background-image: url("/assets/images/02-hero-bg.jpg");
     background-size: cover;
     background-position:  100% 15%;
@@ -76,13 +81,102 @@ nav a{
 
 .span-text{
     background-color: #92cccd;
-    padding: 15px;
-    font-size: large;
+    padding: 10px;
+    font-size: x-large;
     font-family: almorsebold;
     color: #31343d;
 
 }
 .hero-subtitle{
-    padding-bottom: 5%;
+    padding-bottom: 3%;
     padding-right: 6%;
+}
+
+.sectionAbout{
+    display: flex;
+    padding-left: 10%;
+    padding-top: 3%;
+    
+}
+.aboutMe{
+    color:#435876;
+    font-size:xx-large;
+    font-family: almorsebold;
+    padding-right: 1%;
+}
+.me{
+    padding-left: 48%;
+}
+
+.p1{
+    display: flex;
+    display: inline;
+    line-height:2;
+    font-family: almorseboldest;
+    color: #66799c;
+    border-left: 3.7px solid #435876;
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    padding-left: 2%;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+
+.sectionWork{
+    display: flex;
+    padding-left: 11.3%;
+    padding-top: 3%;
+    
+}
+.workHeader{
+    color:#435876;
+    display:inline;
+    font-size:xx-large;
+    font-family: almorsebold;
+    padding-right: 1%;
+}
+.borderdiv{
+    display: inline;
+    border-left: 3.7px solid #435876;
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    padding-left: 3%;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+.imgdiv{
+    display: flex;
+    position: relative;
+    width: 98%;
+    height:85%;
+}
+section img{
+    border: 3.7px solid #92cccd;
+}
+
+.span-text-img{
+    background-color: #92cccd;
+    padding: 25px 25px 25px 25px;
+    font-size: small;
+    font-family: almorsebold;
+    color: #31343d;
+    position: absolute;
+    left:0;
+    bottom: 20%;
+
+}
+.span-text-img-h2{
+    background-color: #92cccd;
+    font-size: small;
+    font-family: almorse;
+    color: #31343d;
+    padding: 0px 0px 10px 25px;
+    position: absolute;
+    left:0;
+    bottom: 20%;
 }
