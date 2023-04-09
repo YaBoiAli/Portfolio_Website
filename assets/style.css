@@ -144,15 +144,15 @@ nav a {
   display: absolute;
   position: absolute;
   border: 3.7px solid #435876;
-  padding-bottom: 50%;
+  padding-bottom: 500px;
   border-top: none;
   border-left: none;
   border-bottom: none;
 }
 
 .box {
-  display: flex;
-  position: relative;
+  display: absolute;
+  position: absolute;
 }
 img {
   border: 5px solid #92cccd;
@@ -162,34 +162,34 @@ img:hover {
 }
 
 .box img {
-  margin-left: 17%;
-  width: 80%;
-  height: auto;
+  margin-left: 155px;
+  width: 900px;
+  height: 400px;
 }
 .span {
   background-color: #92cccd;
-  padding-left: 1%;
-  padding-top: 1%;
-  padding-right: 1%;
-  padding-bottom: 3.6%;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 36px;
   font-size: x-large;
   font-family: almorsebold;
   color: #31343d;
   position: absolute;
-  left: 17%;
-  bottom: 6%;
+  left: 157px;
+  bottom: 20px;
 }
 .span-main {
   background-color: #92cccd;
-  padding-left: 1%;
-  padding-top: 1%;
-  padding-right: 1%;
+  padding-left: 10px;
+  padding-top: 2px;
+  padding-right: 10px;
   font-size: small;
   font-family: almorse;
   color: #31343d;
   position: absolute;
-  left: 17%;
-  bottom: 9%;
+  left: 157px;
+  bottom: 40px;
 }
 
 .imgdiv {
@@ -203,37 +203,37 @@ img:hover {
   display: absolute;
   position: relative;
   right: 0px;
-  left: 15.6%;
-  top: 2%;
+  left: 136px;
+  top: 20px;
   bottom: 5%;
-  width: 40%;
+  width: 350px;
   height: 150px;
 }
 
 .LEDspan {
   background-color: #92cccd;
-  padding-left: 1%;
-  padding-top: 1%;
-  padding-right: 1%;
-  padding-bottom: 3.6%;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 36px;
   font-size: x-large;
   font-family: almorsebold;
   color: #31343d;
   position: absolute;
-  left: 17%;
-  bottom: 45%;
+  left: 155px;
+  bottom: 30px;
 }
 .LED-text {
   background-color: #92cccd;
-  padding-left: 1%;
-  padding-top: 1%;
-  padding-right: 1%;
+  padding-left: 10px;
+  padding-top: 0px;
+  padding-right: 10px;
   font-size: small;
   font-family: almorse;
   color: #31343d;
   position: absolute;
-  left: 18%;
-  bottom: 50%;
+  left: 155px;
+  bottom: 50px;
 }
 
 /* Another panel of image*/
@@ -241,7 +241,7 @@ img:hover {
   display: absolute;
   position: relative;
   padding: 20px;
-  left:40%;
+  left: 40%;
 }
 
 .sideimg2 {
@@ -280,4 +280,3 @@ img:hover {
   left: 18%;
   bottom: 50%;
 }
-
