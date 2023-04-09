@@ -92,22 +92,22 @@ nav a {
 }
 
 .sectionAbout {
-  display: absolute;
+  display: flex;
   position: relative;
-  padding-left: 50px;
+  padding-top: 2%;
+  padding-left: 2%;
+
 }
 .aboutMe {
   color: #435876;
   font-size: xx-large;
   font-family: almorsebold;
-}
-.me {
-  padding-left: 50%;
+  text-align: end;
 }
 
 .p1 {
   display: flex;
-  padding-left: 170px;
+  padding-left: 15px;
   line-height: 2;
   font-family: almorseboldest;
   color: #66799c;
@@ -116,14 +116,13 @@ nav a {
   padding-bottom: 30px;
 }
 #borderabt {
-    display: absolute;
-    position: absolute;
+    display: flex;
+    position: flex-start;
     border: 3.7px solid #435876;
-    padding-bottom: 160px;
-    padding-right: 0.7%;
     border-top: none;
     border-left: none;
     border-bottom: none;
+    padding-right: 0.7%;
   }
 
 .sectionWork {
@@ -135,21 +134,20 @@ nav a {
   color: #435876;
   font-size: xx-large;
   font-family: almorsebold;
-  padding-right: 1%;
+  padding-right: 10%;
 }
 #border {
-  display: absolute;
-  position: absolute;
-  border: 3.7px solid #435876;
-  padding-bottom: 750px;
-  padding-right: 0.7%;
-  border-top: none;
-  border-left: none;
-  border-bottom: none;
+  display: flex;
+  position: flex-start;
+  border-right: 3.7px solid #435876;
+  height: 810px;
+  padding-left: 0.7%;
+
+
 }
 
 .box {
-  display: absolute;
+  display: flex;
   position: absolute;
 }
 img {
@@ -195,7 +193,7 @@ img:hover {
 .imgdiv {
   display: flex;
   position: absolute;
-  padding: 20px;
+  padding: 2px;
   padding-bottom: none;
 }
 
@@ -203,7 +201,6 @@ img:hover {
   display: flex;
   position: absolute;
   right: 0px;
-  left: 155px;
   top: 425px;
   bottom: 500px;
   width: 445px;
@@ -250,7 +247,6 @@ img:hover {
   display: flex;
   position: absolute;
   right: 0px;
-  left: 610px;
   top: 425px;
   bottom: 500px;
   width: 445px;
@@ -473,26 +469,23 @@ img:hover {
 }
 
 .sectionContact {
-    display: absolute;
+    display: flex;
     position: relative;
     padding-left: 1%;
     bottom: 0px;
-    top: 820px;
     padding-bottom: 2%;
+    text-align: end;
+
     
   }
   .contact {
+    display: flex;
     color: #435876;
     font-size: x-large;
     font-family: almorsebold;
     padding-right: none;
-    display: absolute;
-    position: relative;
-    padding-right: 10px;
-    padding-left: -10px;
-  }
-  .contactme {
-    padding-left: 50%;
+    position: flex-start;
+    padding-right: 2.2px;
   }
   .contactp1 {
     line-height: 2;
@@ -504,21 +497,19 @@ img:hover {
     padding-bottom: 30px;
   }
 #border2 {
-  display: absolute;
-  position: absolute;
-  border: 3.7px solid #435876;
-  border-top: none;
-  border-left: none;
-  border-bottom: none;
+  display: flex;
+  position: flex-start;
+  border-right: 3.7px solid #435876;
+
 }
 footer{
     display: absolute;
     position: absolute;
+    text-align: center;
 }
 footer ul {
   list-style: none;
   font-size: x-large;
-  padding-left: 16%;
 }
 footer ul li {
   display: inline-block;
