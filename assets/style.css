@@ -1,182 +1,283 @@
-@font-face{
-    src: url(fonts/main-font/Fontspring-DEMO-almaroseregular.otf);
-    font-family: almorse;
+@font-face {
+  src: url(fonts/main-font/Fontspring-DEMO-almaroseregular.otf);
+  font-family: almorse;
 }
 @font-face {
-    font-family: almorsebold;
-    src: url(fonts/main-font/Fontspring-DEMO-almarosesemibold.otf);
+  font-family: almorsebold;
+  src: url(fonts/main-font/Fontspring-DEMO-almarosesemibold.otf);
 }
 @font-face {
-    font-family: almorseboldest;
-    src: url(fonts/main-font/Fontspring-DEMO-almarosemedium.otf);
+  font-family: almorseboldest;
+  src: url(fonts/main-font/Fontspring-DEMO-almarosemedium.otf);
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-html{
-    height: 100%;
+html {
+  height: 100%;
+  scroll-behavior: smooth;
 }
-body{
-    min-height: 100%;
-    line-height: 1;
-    font-family: almorse;
-    background-color: #ededf6;
+body {
+  min-height: 100%;
+  line-height: 1;
+  font-family: almorse;
+  background-color: #ededf6;
 }
-nav{
-    width: 100%;
-    background-color: #31343d;
-    padding-bottom: 11px;
-    padding-right: 5%;
-}
-
-nav h2{
-    background-color: #92cccd;
-    color: #31343d;
-    padding-left: 3%;
-    font-family: almorse;
-    font-size: 30px;
-    padding-top: 8px;
-    padding-right:5px;
-    padding-bottom: 5px;
-}
-nav{
-    display:flex;
-    justify-content: space-between;
-}
-nav ul{
-    list-style: none;
-
-}
-nav ul li{
-    display: inline-block;
-    text-decoration: none;
-    padding-top: 15px;
-    padding-left: 10px;
-    color: white;
-    color: inherit;
-    font-family: almorse;
-}
-nav a{
-    font-family: almorse;
-    text-decoration: none;
-    color: inherit;
-    color:#92cccd;
-    display: inline;
-    border-bottom: 3.3px solid #92cccd;
-    padding-left: 8px;
-    padding-right: 8px;
-  }
-.hero{
-    height: 210px;
-    background-image: url("/assets/images/02-hero-bg.jpg");
-    background-size: cover;
-    background-position:  100% 15%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+nav {
+  width: 100%;
+  background-color: #31343d;
+  padding-bottom: 11px;
+  padding-right: 5%;
 }
 
-.span-text{
-    background-color: #92cccd;
-    padding: 10px;
-    font-size: x-large;
-    font-family: almorsebold;
-    color: #31343d;
-
+nav h2 {
+  background-color: #92cccd;
+  color: #31343d;
+  padding-left: 3%;
+  font-family: almorse;
+  font-size: 30px;
+  padding-top: 8px;
+  padding-right: 5px;
+  padding-bottom: 5px;
 }
-.hero-subtitle{
-    padding-bottom: 3%;
-    padding-right: 6%;
+nav {
+  display: flex;
+  justify-content: space-between;
 }
-
-.sectionAbout{
-    display: flex;
-    padding-left: 10%;
-    padding-top: 3%;
-    
+nav ul {
+  list-style: none;
 }
-.aboutMe{
-    color:#435876;
-    font-size:xx-large;
-    font-family: almorsebold;
-    padding-right: 1%;
+nav ul li {
+  display: inline-block;
+  text-decoration: none;
+  padding-top: 15px;
+  padding-left: 10px;
+  color: white;
+  color: inherit;
+  font-family: almorse;
 }
-.me{
-    padding-left: 48%;
+nav a {
+  font-family: almorse;
+  text-decoration: none;
+  color: inherit;
+  color: #92cccd;
+  display: inline;
+  border-bottom: 3.3px solid #92cccd;
+  padding-left: 8px;
+  padding-right: 8px;
 }
-
-.p1{
-    display: flex;
-    display: inline;
-    line-height:2;
-    font-family: almorseboldest;
-    color: #66799c;
-    border-left: 3.7px solid #435876;
-    border-style: solid;
-    border-top: none;
-    border-right: none;
-    border-bottom: none;
-    padding-left: 2%;
-    padding-top: 5px;
-    padding-bottom: 30px;
-    font-size: 15px;
-}
-
-.sectionWork{
-    display: flex;
-    padding-left: 11.3%;
-    padding-top: 3%;
-    
-}
-.workHeader{
-    color:#435876;
-    display:inline;
-    font-size:xx-large;
-    font-family: almorsebold;
-    padding-right: 1%;
-}
-.borderdiv{
-    display: inline;
-    border-left: 3.7px solid #435876;
-    border-style: solid;
-    border-top: none;
-    border-right: none;
-    border-bottom: none;
-    padding-left: 3%;
-    padding-top: 5px;
-    padding-bottom: 30px;
-}
-.imgdiv{
-    display: flex;
-    position: relative;
-    width: 98%;
-    height:85%;
-}
-section img{
-    border: 3.7px solid #92cccd;
+.hero {
+  height: 210px;
+  background-image: url("/assets/images/02-hero-bg.jpg");
+  background-size: cover;
+  background-position: 100% 15%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
-.span-text-img{
-    background-color: #92cccd;
-    padding: 25px 25px 25px 25px;
-    font-size: small;
-    font-family: almorsebold;
-    color: #31343d;
-    position: absolute;
-    left:0;
-    bottom: 20%;
+.span-text {
+  background-color: #92cccd;
+  padding: 10px;
+  font-size: x-large;
+  font-family: almorsebold;
+  color: #31343d;
+}
+.hero-subtitle {
+  padding-bottom: 3%;
+  padding-right: 6%;
+}
 
+.sectionAbout {
+  display: flex;
+  padding-left: 10%;
+  padding-top: 3%;
 }
-.span-text-img-h2{
-    background-color: #92cccd;
-    font-size: small;
-    font-family: almorse;
-    color: #31343d;
-    padding: 0px 0px 10px 25px;
-    position: absolute;
-    left:0;
-    bottom: 20%;
+.aboutMe {
+  color: #435876;
+  font-size: xx-large;
+  font-family: almorsebold;
+  padding-right: 0.7%;
 }
+.me {
+  padding-left: 48%;
+}
+
+.p1 {
+  display: flex;
+  display: inline;
+  line-height: 2;
+  font-family: almorseboldest;
+  color: #66799c;
+  font-size: 15px;
+  border-left: 3.7px solid #435876;
+  border-style: solid;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  padding-left: 2%;
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+
+.sectionWork {
+  display: absolute;
+  padding-left: 11%;
+  padding-top: 3%;
+  position: relative;
+}
+.header {
+  display: absolute;
+}
+.workHeader {
+  color: #435876;
+  display: absolute;
+  position: relative;
+  font-size: xx-large;
+  font-family: almorsebold;
+  padding-right: 1%;
+}
+#border {
+  display: absolute;
+  position: absolute;
+  border: 3.7px solid #435876;
+  padding-bottom: 50%;
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+}
+
+.box {
+  display: flex;
+  position: relative;
+}
+img {
+  border: 5px solid #92cccd;
+}
+img:hover {
+  opacity: 50%;
+}
+
+.box img {
+  margin-left: 17%;
+  width: 80%;
+  height: auto;
+}
+.span {
+  background-color: #92cccd;
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-right: 1%;
+  padding-bottom: 3.6%;
+  font-size: x-large;
+  font-family: almorsebold;
+  color: #31343d;
+  position: absolute;
+  left: 17%;
+  bottom: 6%;
+}
+.span-main {
+  background-color: #92cccd;
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-right: 1%;
+  font-size: small;
+  font-family: almorse;
+  color: #31343d;
+  position: absolute;
+  left: 17%;
+  bottom: 9%;
+}
+
+.imgdiv {
+  display: absolute;
+  position: relative;
+  padding: 20px;
+  padding-bottom: none;
+}
+
+.sideimg1 {
+  display: absolute;
+  position: relative;
+  right: 0px;
+  left: 15.6%;
+  top: 2%;
+  bottom: 5%;
+  width: 40%;
+  height: 150px;
+}
+
+.LEDspan {
+  background-color: #92cccd;
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-right: 1%;
+  padding-bottom: 3.6%;
+  font-size: x-large;
+  font-family: almorsebold;
+  color: #31343d;
+  position: absolute;
+  left: 17%;
+  bottom: 45%;
+}
+.LED-text {
+  background-color: #92cccd;
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-right: 1%;
+  font-size: small;
+  font-family: almorse;
+  color: #31343d;
+  position: absolute;
+  left: 18%;
+  bottom: 50%;
+}
+
+/* Another panel of image*/
+.imgdiv2 {
+  display: absolute;
+  position: relative;
+  padding: 20px;
+  left:40%;
+}
+
+.sideimg2 {
+  display: absolute;
+  position: relative;
+  right: 0px;
+  left: 15.6%;
+  top: 10%;
+  bottom: 5%;
+  width: 40%;
+  height: 150px;
+}
+
+.span2 {
+  background-color: #92cccd;
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-right: 1%;
+  padding-bottom: 3.6%;
+  font-size: x-large;
+  font-family: almorsebold;
+  color: #31343d;
+  position: absolute;
+  left: 17%;
+  bottom: 45%;
+}
+.span-text3 {
+  background-color: #92cccd;
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-right: 1%;
+  font-size: small;
+  font-family: almorse;
+  color: #31343d;
+  position: absolute;
+  left: 18%;
+  bottom: 50%;
+}
+
