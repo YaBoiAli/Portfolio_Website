@@ -100,7 +100,7 @@ nav a {
   color: #435876;
   font-size: xx-large;
   font-family: almorsebold;
-  padding-right: 0.7%;
+  padding-right: 9px;
 }
 .me {
   padding-left: 48%;
@@ -124,18 +124,12 @@ nav a {
 }
 
 .sectionWork {
-  display: absolute;
-  padding-left: 11%;
-  padding-top: 3%;
-  position: relative;
-}
-.header {
-  display: absolute;
+    display: flex;
+    padding-left: 10%;
+    padding-top: 3%;
 }
 .workHeader {
   color: #435876;
-  display: absolute;
-  position: relative;
   font-size: xx-large;
   font-family: almorsebold;
   padding-right: 1%;
@@ -144,7 +138,8 @@ nav a {
   display: absolute;
   position: absolute;
   border: 3.7px solid #435876;
-  padding-bottom: 500px;
+  padding-bottom: 750px;
+  padding-right: 0.7%;
   border-top: none;
   border-left: none;
   border-bottom: none;
@@ -156,7 +151,9 @@ nav a {
 }
 img {
   border: 5px solid #92cccd;
+  transition: 0.5s linear;
 }
+
 img:hover {
   opacity: 50%;
 }
@@ -193,90 +190,348 @@ img:hover {
 }
 
 .imgdiv {
-  display: absolute;
-  position: relative;
+  display: flex;
+  position: absolute;
   padding: 20px;
   padding-bottom: none;
 }
 
 .sideimg1 {
-  display: absolute;
-  position: relative;
+  display: flex;
+  position: absolute;
   right: 0px;
-  left: 136px;
-  top: 20px;
-  bottom: 5%;
-  width: 350px;
-  height: 150px;
+  left: 155px;
+  top: 425px;
+  bottom: 500px;
+  width: 445px;
+  height: 160px;
 }
 
 .LEDspan {
   background-color: #92cccd;
+  width: 140px;
   padding-left: 10px;
   padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 36px;
+  padding-bottom: 50px;
   font-size: x-large;
   font-family: almorsebold;
   color: #31343d;
   position: absolute;
+  top: 500px;
   left: 155px;
-  bottom: 30px;
+  bottom: 10px;
 }
 .LED-text {
-  background-color: #92cccd;
-  padding-left: 10px;
-  padding-top: 0px;
-  padding-right: 10px;
+  width: 140px;
+  padding-left: 12px;
+  padding-top: 35px;
+  padding-bottom: 70px;
   font-size: small;
-  font-family: almorse;
+  font-family: almorsebold;
   color: #31343d;
   position: absolute;
+  top: 500px;
   left: 155px;
-  bottom: 50px;
+  bottom: 10px;
 }
 
 /* Another panel of image*/
 .imgdiv2 {
-  display: absolute;
-  position: relative;
+  display: flex;
+  position: absolute;
   padding: 20px;
-  left: 40%;
+  padding-bottom: none;
 }
 
 .sideimg2 {
-  display: absolute;
-  position: relative;
+  display: flex;
+  position: absolute;
   right: 0px;
-  left: 15.6%;
-  top: 10%;
-  bottom: 5%;
-  width: 40%;
-  height: 150px;
+  left: 610px;
+  top: 425px;
+  bottom: 500px;
+  width: 445px;
+  height: 160px;
 }
 
 .span2 {
   background-color: #92cccd;
-  padding-left: 1%;
-  padding-top: 1%;
-  padding-right: 1%;
-  padding-bottom: 3.6%;
+  width: 150px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 50px;
   font-size: x-large;
   font-family: almorsebold;
   color: #31343d;
   position: absolute;
-  left: 17%;
-  bottom: 45%;
+  top: 500px;
+  left: 610px;
+  bottom: 10px;
 }
 .span-text3 {
-  background-color: #92cccd;
-  padding-left: 1%;
-  padding-top: 1%;
-  padding-right: 1%;
+  width: 150px;
+  padding-left: 12px;
+  padding-top: 35px;
+  padding-bottom: 70px;
   font-size: small;
-  font-family: almorse;
+  font-family: almorsebold;
   color: #31343d;
   position: absolute;
-  left: 18%;
-  bottom: 50%;
+  top: 500px;
+  left: 610px;
+  bottom: 10px;
+}
+
+.imgdiv {
+  display: flex;
+  position: absolute;
+  padding: 20px;
+  padding-bottom: none;
+}
+
+.sideimg1 {
+  display: flex;
+  position: absolute;
+  right: 0px;
+  left: 155px;
+  top: 425px;
+  bottom: 500px;
+  width: 445px;
+  height: 160px;
+}
+
+.LEDspan {
+  background-color: #92cccd;
+  width: 140px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  font-size: x-large;
+  font-family: almorsebold;
+  color: #31343d;
+  position: absolute;
+  top: 500px;
+  left: 155px;
+  bottom: 10px;
+}
+.LED-text {
+  width: 140px;
+  padding-left: 12px;
+  padding-top: 35px;
+  padding-bottom: 70px;
+  font-size: small;
+  font-family: almorsebold;
+  color: #31343d;
+  position: absolute;
+  top: 500px;
+  left: 155px;
+  bottom: 10px;
+}
+
+/* Another panel of image*/
+.imgdiv2 {
+  display: flex;
+  position: absolute;
+  padding: 20px;
+  padding-bottom: none;
+}
+
+.sideimg2 {
+  display: flex;
+  position: absolute;
+  right: 0px;
+  left: 610px;
+  top: 425px;
+  bottom: 500px;
+  width: 445px;
+  height: 160px;
+}
+
+.span2 {
+  background-color: #92cccd;
+  width: 150px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  font-size: x-large;
+  font-family: almorsebold;
+  color: #31343d;
+  position: absolute;
+  top: 500px;
+  left: 610px;
+  bottom: 10px;
+}
+.span-text3 {
+  width: 150px;
+  padding-left: 12px;
+  padding-top: 35px;
+  padding-bottom: 70px;
+  font-size: small;
+  font-family: almorsebold;
+  color: #31343d;
+  position: absolute;
+  top: 500px;
+  left: 610px;
+  bottom: 10px;
+}
+
+/*Bottom 2 boxes*/
+.imgdiv3 {
+  display: flex;
+  position: absolute;
+  padding: 20px;
+  padding-bottom: none;
+}
+
+.sideimg3 {
+  display: flex;
+  position: absolute;
+  right: 0px;
+  left: 155px;
+  top: 605px;
+  bottom: 400px;
+  width: 445px;
+  height: 160px;
+}
+
+.span3 {
+  background-color: #92cccd;
+  width: 170px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  font-size: x-large;
+  font-family: almorsebold;
+  color: #31343d;
+  position: absolute;
+  top: 684px;
+  left: 155px;
+  bottom: 10px;
+}
+.span-text4 {
+  width: 140px;
+  padding-left: 12px;
+  padding-top: 35px;
+  padding-bottom: 70px;
+  font-size: small;
+  font-family: almorsebold;
+  color: #31343d;
+  position: absolute;
+  top: 684px;
+  left: 155px;
+  bottom: 10px;
+}
+
+/* Another panel of image*/
+.imgdiv4 {
+  display: flex;
+  position: absolute;
+  padding: 20px;
+  padding-bottom: none;
+}
+
+.sideimg4 {
+  display: flex;
+  position: absolute;
+  right: 0px;
+  left: 610px;
+  top: 605px;
+  bottom: 500px;
+  width: 445px;
+  height: 160px;
+}
+
+.span4 {
+  background-color: #92cccd;
+  width: 150px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  font-size: x-large;
+  font-family: almorsebold;
+  color: #31343d;
+  position: absolute;
+  top: 684px;
+  left: 610px;
+  bottom: 10px;
+}
+.span-text5 {
+  width: 150px;
+  padding-left: 12px;
+  padding-top: 35px;
+  padding-bottom: 70px;
+  font-size: small;
+  font-family: almorsebold;
+  color: #31343d;
+  position: absolute;
+  top: 684px;
+  left: 610px;
+  bottom: 10px;
+}
+
+.sectionContact {
+    display: absolute;
+    position: relative;
+    padding-left: 8.2%;
+    bottom: 0px;
+    top: 820px;
+    padding-bottom: 2%;
+  }
+  .contact {
+    color: #435876;
+    font-size: x-large;
+    font-family: almorsebold;
+    padding-right: none;
+    display: absolute;
+    position: relative;
+    padding-right: 10px;
+    padding-left: -10px;
+  }
+  .contactme {
+    padding-left: 50%;
+  }
+  .contactp1 {
+    line-height: 2;
+    font-family: almorseboldest;
+    color: #66799c;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+  }
+#border2 {
+  display: absolute;
+  position: absolute;
+  border: 3.7px solid #435876;
+  padding-right: -2%;
+  padding-bottom: 40px;
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+}
+
+footer ul {
+  list-style: none;
+  font-size: x-large;
+  padding-left: 8%;
+  padding-top: 2%;
+}
+footer ul li {
+  display: inline-block;
+  text-decoration: none;
+  padding-top: 15px;
+  padding-left: 30px;
+  color: #435876;
+  color: inherit;
+  font-family: almorse;
+}
+footer a {
+  font-family: almorse;
+  text-decoration: none;
+  color: inherit;
+  color: #435876;;
+  display: inline;
+  border-bottom: 3.4px solid #435876;;
+  padding-left: 10px;
+  padding-right: 8px;
 }
