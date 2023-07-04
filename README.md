@@ -4,6 +4,8 @@ This project is designed to showcase a potential employee's previous work in a u
 
 ![Employee Portfolio screenshot](/assets/images/portfolioSS.png)
 
+ Link to site => [https://yaboiali.github.io/Portfolio_Website/]
+
 ## Features
 
 - Developer's name and photo
